@@ -16,44 +16,19 @@ public class WomenBlousesPage extends PageBase {
     private By boxButton = By.xpath("//div[@class='right-block']//div[@class='button-container']");
 
     @Autowired
-    private LayerItemPage layerItemPage;
-
-    @Autowired
     public WomenBlousesPage(WebDriver driver) {
         super(driver);
     }
 
-    public ButtonContainer hoverOverBlouse() {
+    public ButtonContainerPage hoverOverBlouse() {
         WebElement blouse = driver.findElement(blouseItem);
         Actions actions = new Actions(driver);
         actions.moveToElement(blouse).perform();
-        return new ButtonContainer(blouse.findElement(boxButton));
+        return new ButtonContainerPage(blouse.findElement(boxButton));
     }
 
-    public LayerItemPage clickOnBlouseItem() {
-        hoverOverBlouse();
-        driver.findElement(blouseItem).click();
-        return layerItemPage;
-    }
-
-    public LayerCartPage addBlouseToCart(){
-       return hoverOverBlouse()
-               .clickOnAddCart();
-    }
-
-    public class ButtonContainer {
-        @Autowired
-        LayerCartPage layerCartPage;
-        private WebElement caption;
-        private By buttonAddToCart = By.xpath("//span[contains(text(),'Add to cart')]");
-
-        public ButtonContainer(WebElement caption) {
-            this.caption = caption;
-        }
-
-        public LayerCartPage clickOnAddCart() {
-            caption.findElement(buttonAddToCart).click();
-            return layerCartPage;
-        }
+    public LayerCartPage addBlouseToCart() {
+        return hoverOverBlouse()
+                .clickOnAddCart();
     }
 }

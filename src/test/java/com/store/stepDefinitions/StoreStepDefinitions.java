@@ -81,5 +81,33 @@ public class StoreStepDefinitions implements En {
         Then("^user is taken to the Authentication screen$", () -> {
             assertEquals(pageManager.getTitle(),"Login - My Store","the user is not in login page");
         });
+        Given("^the user is on blouses page$", () -> {
+            navigateTo.goToBlousePage();
+        });
+        And("^the user adds the blouse to the cart$", () -> {
+            womenBlousesPage.addBlouseToCart();
+        });
+        Then("^the page shows \"([^\"]*)\"$", (String message) -> {
+            assertEquals(layerCartPage.getLayerMessage(),message);
+        });
+        When("^the user click on more in the blouse$", () -> {
+            womenBlousesPage.hoverOverBlouse().clickOnMore();
+        });
+        Then("^the user is redirected to the blouse page$", () -> {
+            assertEquals(pageManager.getTitle(), "Blouse - My Store", "the user is not in blouse page");
+        });
+        Given("^the user is on evening dress page$", () -> {
+            navigateTo.goToEveningDress();
+        });
+        When("^the user adds the printed dress to the cart$", () -> {
+            womenEveningDressesPage.clickOnPrintedDressAddtoCart();
+        });
+        When("^the user click on more in the printed dress$", () -> {
+            womenEveningDressesPage.clickOnPrintedDressMore();
+        });
+        Then("^the user is redirected to the printed dress page$", () -> {
+            assertEquals(pageManager.getTitle(), "Printed Dress - My Store", "the user is not in printed dress page");
+        });
+
     }
 }

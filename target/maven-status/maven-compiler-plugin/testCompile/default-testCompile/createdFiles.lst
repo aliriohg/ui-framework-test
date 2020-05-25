@@ -1,11 +1,11 @@
 com\store\conf\DriverConfig.class
+com\store\pages\ButtonContainerPage.class
 com\store\pages\WomenTopsPage.class
 com\store\pages\LayerItemPage.class
 com\store\enums\Browser.class
 com\store\pages\WomenEveningDressesPage$QuickViewContainer.class
 com\store\StartApplication.class
 com\store\pages\AuthenticationPage.class
-com\store\pages\WomenBlousesPage$ButtonContainer.class
 com\store\util\driver\DriverFactory$1.class
 com\store\stepDefinitions\StoreStepDefinitions.class
 com\store\pages\HomePage.class

@@ -14,6 +14,7 @@ import java.time.Duration;
 @Component
 public class LayerCartPage extends PageBase {
     private By buttonContinueShopping = By.xpath("//span[@title='Continue shopping']//span");
+    private By layerMessage = By.xpath("//div[@class='layer_cart_product col-xs-12 col-md-6']//h2[1]");
 
     @Autowired
     private HomePage homePage;
@@ -30,4 +31,10 @@ public class LayerCartPage extends PageBase {
         driver.findElement(buttonContinueShopping).click();
         return homePage;
     }
+
+    public String getLayerMessage() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(layerMessage));
+        return driver.findElement(layerMessage).getText();
+    }
+
 }

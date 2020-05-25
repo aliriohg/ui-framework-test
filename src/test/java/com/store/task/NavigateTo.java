@@ -15,9 +15,22 @@ public class NavigateTo {
     private WebDriver webDriver;
 
     @Value("${url.home}")
-    private String url;
+    private String homePage;
+
+    @Value("${url.blouse.section}")
+    private String blousesPage;
+
+    @Value("${url.eveningdress.section}")
+    private String eveningDressPage;
 
     public void goToHomePage(){
-        this.webDriver.get(url);
+        this.webDriver.get(homePage);
+    }
+
+    public void goToBlousePage() {
+        this.webDriver.get(blousesPage);
+    }
+    public void goToEveningDress() {
+        this.webDriver.get(eveningDressPage);
     }
 }

@@ -18,27 +18,46 @@ public class WomenEveningDressesPage extends PageBase {
     private By printedDressItem = By.xpath("//div[@class='right-block']//a[@class='product-name'][contains(text(),'Printed Dress')]");
     private By productContainer = By.xpath("//div[@class='product-container']");
     private By iframeItem= By.className("fancybox-iframe");
+
     @Autowired
     private WebDriverWait wait;
 
     @Autowired
     LayerItemPage layerItemPage;
+    @Autowired
+    LayerCartPage layerCartPage;
 
     @Autowired
     public WomenEveningDressesPage(WebDriver driver) {
         super(driver);
     }
 
-    public QuickViewContainer hoverOver(WebElement webElement) {
+    public QuickViewContainer hoverOverQuickViewContainer(WebElement webElement) {
         Actions actions = new Actions(driver);
         actions.moveToElement(webElement).perform();
         return new QuickViewContainer(webElement.findElement(productContainer));
     }
+    public ButtonContainerPage hoverOverButtonContainer(WebElement webElement) {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(webElement).perform();
+        return new ButtonContainerPage(webElement.findElement(productContainer));
+    }
 
     public LayerItemPage clickOnQuickViewOfPrintedDress() {
-        hoverOver(driver.findElement(printedDressItem))
+        hoverOverQuickViewContainer(driver.findElement(printedDressItem))
                 .clickOnQuickView();
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(driver.findElement(iframeItem)));
+        return layerItemPage;
+    }
+    public LayerCartPage clickOnPrintedDressAddtoCart() {
+        hoverOverButtonContainer(driver.findElement(printedDressItem))
+                .clickOnAddCart();
+        return layerCartPage;
+    }
+
+    public LayerItemPage clickOnPrintedDressMore() {
+        hoverOverButtonContainer(driver.findElement(printedDressItem))
+                .clickOnMore();
         return layerItemPage;
     }
 
