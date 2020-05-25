@@ -91,7 +91,7 @@ public class StoreStepDefinitions implements En {
             assertEquals(layerCartPage.getLayerMessage(),message);
         });
         When("^the user click on more in the blouse$", () -> {
-            womenBlousesPage.hoverOverBlouse().clickOnMore();
+            womenBlousesPage.blouseClickOnMore();
         });
         Then("^the user is redirected to the blouse page$", () -> {
             assertEquals(pageManager.getTitle(), "Blouse - My Store", "the user is not in blouse page");

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Scope("cucumber-glue")
 @Component
 public class PageManager extends PageBase {
+
     @Autowired
     public PageManager(WebDriver driver) {
         super(driver);
@@ -20,4 +21,7 @@ public class PageManager extends PageBase {
     public String getCurrenUrlPage(){
         return driver.getCurrentUrl();
     }
+
+
+
 }
