@@ -1,0 +1,325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-25T18:09:57.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.store.CucumberSpringContextConfiguration.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can add women blouse",
+        "description": "",
+        "id": "user-can-add-multiple-items-to-cart;user-can-add-women-blouse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3253000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on Homepage",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:38)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2695000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks Women",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:41)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1433000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks Tops",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:44)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks blouses",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:47)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on add to cart",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:50)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1305000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user clicks on continue shopping",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:53)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: the user is not in homepage \u003d\u003d\u003e expected: \u003cBlouses - My Store\u003e but was: \u003cMy Store\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\r\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\r\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)\r\n\tat com.store.stepDefinitions.StoreStepDefinitions.lambda$new$6(StoreStepDefinitions.java:57)\r\n\tat ✽.the user is returned to the homepage(file:///C:/Users/Ahernandez/Documents/projectsAli/ui-framework-test/src/test/resources/features/add_to_cart_items.feature:12)\r\n",
+              "duration": 48000000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "the user is returned to the homepage",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:56)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-25T18:10:15.627Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.store.CucumberSpringContextConfiguration.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "user can add women evening dress",
+        "description": "",
+        "id": "user-can-add-multiple-items-to-cart;user-can-add-women-evening-dress",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2863000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on Homepage",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:38)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1484000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks Women",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:41)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks Dresses",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:60)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Clicks evening dresses",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:63)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2087000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on (Quick View) printed dress",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:66)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 576000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on add to cart from Pop up",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:69)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks on continue shopping",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:53)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: the user is not in homepage \u003d\u003d\u003e expected: \u003cEvening Dresses - My Store\u003e but was: \u003cMy Store\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\r\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\r\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)\r\n\tat com.store.stepDefinitions.StoreStepDefinitions.lambda$new$6(StoreStepDefinitions.java:57)\r\n\tat ✽.the user is returned to the homepage(file:///C:/Users/Ahernandez/Documents/projectsAli/ui-framework-test/src/test/resources/features/add_to_cart_items.feature:22)\r\n",
+              "duration": 13000000,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "the user is returned to the homepage",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:56)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-25T18:10:35.833Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.store.CucumberSpringContextConfiguration.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "user verifies shopping cart has 2 items in cart",
+        "description": "",
+        "id": "user-can-add-multiple-items-to-cart;user-verifies-shopping-cart-has-2-items-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2658000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user is on Homepage",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:38)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 687000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks Cart",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:72)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: the cart doesn\u0027t have 2 products \u003d\u003d\u003e expected: \u003c-1\u003e but was: \u003c2\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\r\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)\r\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:542)\r\n\tat com.store.stepDefinitions.StoreStepDefinitions.lambda$new$12(StoreStepDefinitions.java:76)\r\n\tat ✽.the cart has 2 products(file:///C:/Users/Ahernandez/Documents/projectsAli/ui-framework-test/src/test/resources/features/add_to_cart_items.feature:28)\r\n",
+              "duration": 62000000,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "the cart has 2 products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 13
+                }
+              ],
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:75)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User Clicks checkout",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:78)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user is taken to the Authentication screen",
+            "match": {
+              "location": "com.store.stepDefinitions.StoreStepDefinitions.\u003cinit\u003e(StoreStepDefinitions.java:81)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can add multiple items to cart",
+    "description": "",
+    "id": "user-can-add-multiple-items-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/add_to_cart_items.feature",
+    "tags": []
+  }
+]

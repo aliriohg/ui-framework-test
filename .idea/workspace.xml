@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96d833e1-5a05-4332-8b37-6430efacab03" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="local" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cKEha0RnWQBFUfmkwvl2we7xkG" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.store.pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.store.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahernandez\Documents\projectsAli\ui-framework-test" />
+      <recent name="C:\Users\Ahernandez\Documents\projectsAli\ui-framework-test\src\test\java\com\alirio" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RunCucumberIT">
+    <configuration name="Feature: add_to_cart_items" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/add_to_cart_items.feature" />
+      <option name="GLUE" value=" " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ui-framework-test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: add_to_cart_items" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user verifies shopping cart has 2 items in cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/add_to_cart_items.feature" />
+      <option name="GLUE" value=" " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ui-framework-test" />
+      <option name="NAME_FILTER" value="^user verifies shopping cart has 2 items in cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user verifies shopping cart has 2 items in cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user verifies shopping cart has 2 items in cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="GLUE" value=" " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ui-framework-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.store" />
+      <option name="MAIN_CLASS_NAME" value="com.store.RunCucumberIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: add_to_cart_items" />
+      <item itemvalue="Cucumber java.Scenario: user verifies shopping cart has 2 items in cart" />
+      <item itemvalue="JUnit.RunCucumberIT" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: add_to_cart_items" />
+        <item itemvalue="Cucumber java.Scenario: user verifies shopping cart has 2 items in cart" />
+        <item itemvalue="JUnit.RunCucumberIT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96d833e1-5a05-4332-8b37-6430efacab03" name="Default Changelist" comment="" />
+      <created>1590269004555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590269004555</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590428756552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590428756552" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590358738233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590358738233" />
+    <state x="343" y="38" key="#xdebugger.evaluate" timestamp="1590379622938">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="343" y="38" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1590379622938" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1590333759583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590333759583" />
+    <state width="1323" height="349" key="GridCell.Tab.0.bottom" timestamp="1590430328644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590430328644" />
+    <state width="1323" height="349" key="GridCell.Tab.0.center" timestamp="1590430328644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590430328644" />
+    <state width="1323" height="349" key="GridCell.Tab.0.left" timestamp="1590430328643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590430328643" />
+    <state width="1323" height="349" key="GridCell.Tab.0.right" timestamp="1590430328644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="349" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590430328644" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590411335971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590411335971" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1590411335971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590411335971" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1590411335971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590411335971" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1590411335971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590411335971" />
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1590356680518">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1590356680518" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1590331355788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590331355788" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1590371552828">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1590371552828" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590334128394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590334128394" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1590334128394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590334128394" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1590358716392">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590358716392" />
+    <state x="390" y="125" width="710" height="478" key="find.popup" timestamp="1590378336128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="125" width="710" height="478" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1590378336128" />
+    <state x="435" y="294" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1590333785279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="294" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1590333785279" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1590358584598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1590358584598" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1590378346448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590378346448" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/store/stepDefinitions/StoreStepDefinitions.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
