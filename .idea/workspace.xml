@@ -4,7 +4,9 @@
     <list default="true" id="96d833e1-5a05-4332-8b37-6430efacab03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/store/pages/ButtonContainerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/store/pages/ButtonContainerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/store/pages/WomenDressesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/store/pages/WomenDressesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/store/util/UtilsActionPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/store/util/UtilsActionPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,25 @@
       <recent name="C:\Users\Ahernandez\Documents\projectsAli\ui-framework-test\src\test\java\com\alirio" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: user can add women evening dress">
+  <component name="RunManager" selected="Cucumber java.Feature: add_to_cart_items">
+    <configuration name="Feature: add_to_cart_items" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/add_to_cart_items.feature" />
+      <option name="GLUE" value=" " />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ui-framework-test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: add_to_cart_items" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: women-blouses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/women-blouses.feature" />
@@ -121,25 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: user can select a women's blouse to add to cart (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/women-evening-dress.feature" />
-      <option name="GLUE" value=" " />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ui-framework-test" />
-      <option name="NAME_FILTER" value="^user can select a women\'s blouse to add to cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user can select a women\'s blouse to add to cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: user can select a women's blouse to add to cart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: user can select more in blouse (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/women-evening-dress.feature" />
@@ -166,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: user can select a women's blouse to add to cart (1)" />
       <item itemvalue="Cucumber java.Scenario: user can select more in blouse (1)" />
       <item itemvalue="Cucumber java.Feature: women-evening-dress" />
       <item itemvalue="Cucumber java.Feature: women-blouses" />
       <item itemvalue="Cucumber java.Scenario: user can add women evening dress" />
+      <item itemvalue="Cucumber java.Feature: add_to_cart_items" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: add_to_cart_items" />
         <item itemvalue="Cucumber java.Scenario: user can add women evening dress" />
         <item itemvalue="Cucumber java.Feature: women-evening-dress" />
         <item itemvalue="Cucumber java.Feature: women-blouses" />
         <item itemvalue="Cucumber java.Scenario: user can select more in blouse (1)" />
-        <item itemvalue="Cucumber java.Scenario: user can select a women's blouse to add to cart (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,42 +221,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="343" y="38" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1590439256656" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1590449224366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1590449224366" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1590333759583">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590333759583" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1590439753805">
+    <state width="1323" height="349" key="GridCell.Tab.0.bottom" timestamp="1590452443521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590439753805" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1590439753805">
+    <state width="1323" height="349" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590452443521" />
+    <state width="1323" height="349" key="GridCell.Tab.0.center" timestamp="1590452443521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590439753805" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1590439753805">
+    <state width="1323" height="349" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590452443521" />
+    <state width="1323" height="349" key="GridCell.Tab.0.left" timestamp="1590452443521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590439753805" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1590439753805">
+    <state width="1323" height="349" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590452443521" />
+    <state width="1323" height="349" key="GridCell.Tab.0.right" timestamp="1590452443521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590439753805" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590439753936">
+    <state width="1323" height="349" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590452443521" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590449204566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590439753936" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1590439753935">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590449204566" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1590449204565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590439753935" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1590439753935">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590449204565" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1590449204565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590439753935" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1590439753936">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590449204565" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1590449204566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590439753936" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590449204566" />
     <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1590356680518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -280,10 +285,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590358716392" />
-    <state x="390" y="125" width="710" height="478" key="find.popup" timestamp="1590378336128">
+    <state x="390" y="125" width="710" height="478" key="find.popup" timestamp="1590450929828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="125" width="710" height="478" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1590378336128" />
+    <state x="390" y="125" width="710" height="478" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1590450929828" />
     <state x="435" y="294" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1590333785279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

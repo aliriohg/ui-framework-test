@@ -14,6 +14,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class UtilsActionPages extends PageBase {
     private By productContainer = By.xpath("//div[@class='product-container']");
+    @Autowired
+    private ButtonContainerPage buttonContainerPage;
 
     @Autowired
     public UtilsActionPages(WebDriver driver) {
@@ -23,6 +25,6 @@ public class UtilsActionPages extends PageBase {
     public ButtonContainerPage hoverOverButtonContainer(WebElement webElement) {
         Actions actions = new Actions(driver);
         actions.moveToElement(webElement).perform();
-        return new ButtonContainerPage(webElement.findElement(productContainer));
+        return buttonContainerPage;
     }
 }

@@ -2,40 +2,40 @@ package com.store.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
-import java.time.Duration;
+@Scope("cucumber-glue")
+@Component
+public class ButtonContainerPage extends PageBase {
 
-
-public class ButtonContainerPage {
-
+    @Autowired
     LayerCartPage layerCartPage;
+    @Autowired
     LayerItemPage layerItemPage;
-    WebDriverWait wait;
 
-    private WebElement caption;
     private By buttonAddToCart = By.xpath("//span[contains(text(),'Add to cart')]");
     private By buttonMore = By.xpath("//span[contains(text(),'More')]");
     private By buttonQuickView = By.xpath("//div[@class='product-container']//a[@class='quick-view']");
 
-
-    public ButtonContainerPage(WebElement caption) {
-        this.caption = caption;
+    @Autowired
+    public ButtonContainerPage(WebDriver driver) {
+        super(driver);
     }
 
+
     public LayerCartPage clickOnAddCart() {
-        caption.findElement(buttonAddToCart).click();
+        driver.findElement(buttonAddToCart).click();
         return layerCartPage;
     }
 
     public LayerItemPage clickOnMore() {
-        caption.findElement(buttonMore).click();
+        driver.findElement(buttonMore).click();
         return layerItemPage;
     }
 
     public void clickOnQuickView() {
-        caption.findElement(buttonQuickView).click();
+        driver.findElement(buttonQuickView).click();
     }
 }
